@@ -53,11 +53,88 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: left;
+  color: white;
+     
   border-bottom: 1px solid #e5e5e5;
   border-top-left-radius: 4px;
   border-top-right-radius: 48px;
   border-bottom-left-radius: 48px;
   border-bottom-right-radius: 4px;
+  
+  background-image: url('/images/background-jumbotron.jpg');
+  background-size:   cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.spacer{
+  min-height: 0.5em;
+}
+
+.jumbotron h1 {
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+
+.jumbotron h2 {
+    text-shadow:
+   -0.5px -0.5px 0 black,  
+    0.5px -0.5px 0 black,
+    -0.5px 0.5px 0 black,
+     0.5px 0.5px 0 black;
+}
+
+.jumbotron p {
+    text-shadow:
+   -0.25px -0.25px 0 black,  
+    0.25px -0.25px 0 black,
+    -0.25px 0.25px 0 black,
+     0.25px 0.25px 0 black;
+}
+
+.arenas {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 2px;  
+  background-size:   cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.arenas h2 {
+text-shadow:
+   -0.5px -0.5px 0 white,  
+    0.5px -0.5px 0 white,
+    -0.5px 0.5px 0 white,
+     0.5px 0.5px 0 white;  
+}
+
+.arenas p {
+ text-shadow:
+   -0.25px -0.25px 0 white,  
+    0.25px -0.25px 0 white,
+    -0.25px 0.25px 0 white,
+     0.25px 0.25px 0 white; 
+}
+
+.arena-web {
+  background-image: url('/images/background-web.jpg');  
+}
+
+.arena-software {
+  background-image: url('/images/background-software.jpg');  
+}
+
+.arena-cloud {
+  background-image: url('/images/background-cloud.jpg');  
+}
+
+.arena-mobile {
+  background-image: url('/images/background-mobile.jpg');  
 }
 
 .jumbotron .btn {

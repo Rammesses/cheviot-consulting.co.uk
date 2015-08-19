@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'AboutCtrl'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'AboutCtrl'
+      })
       .when('/info/cloud', {
         templateUrl: 'views/info-cloud.html',
         controller: 'AboutCtrl'
