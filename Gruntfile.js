@@ -358,7 +358,7 @@ module.exports = function (grunt) {
       }
     },
     
-    awsS3: {
+    aws_s3: {
             options: {
                 accessKeyId: appConfig.s3AccessKey,
                 secretAccessKey: appConfig.s3SecretAccessKey,
@@ -423,7 +423,7 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
-  grunt.registerTask('deploy', ['build', 'awsS3']);
+  grunt.registerTask('deploy', ['build', 'aws_s3']);
 
   grunt.registerTask('default', [
     'newer:jshint',
